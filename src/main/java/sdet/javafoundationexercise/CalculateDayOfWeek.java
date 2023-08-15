@@ -3,6 +3,25 @@ package sdet.javafoundationexercise;
 import org.junit.Test;
 import org.testng.Assert;
 
+/*
+ * Pseudo Code:
+1)Declare an weekarray of String[] weekarray= {"Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"};
+2)Declare an month array with days for leap year and Declare an month array with days for non leap year
+int[] leapYearDaysForMonts = { 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+int[] nonLeapYearDaysForMonts = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+3)Declare an integer which is used to calculate no ofdays in the year int daysInYear=0 , Calculate total no .of days till previous year. Take the value of previous year and calculate % of the year dividing with 400 and calculate total no .off days in year with including leap year and non leap year
+4)Declare leapYearDays =366, nonLeapYearDays=365;
+5)Calculate no of year for which yearInDays need to be calculated = (CurrentYear-1)%400;
+6)Calculate the noofleapyears in noOfYears  noofleapyears= noOfYears/4;
+7)No. of noofNonleapyears = noOfYears  -noofleapyears= ;
+8)daysInYear=(365*noofNonleapyears)+(366*noofleapyears);
+9)Intialize daysInmonth=0, Calculate the no.ofdays in currentyear.
+10)totalnoofdays=daysInYear+daysInmonth;
+11)declare a variable with initial value dayofweek=0;
+12)dayofweek=totalnoofdays/7;
+13)Based on value of dayofweek , Return the value of corresponding string from the week array . If dayofweek=1 return monday.*/
+
+
 public class CalculateDayOfWeek {   public String dayOfTheWeek(int day, int month, int year) {
 	String[] weekarray= {"Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"};
 	int[] leapYearDaysForMonts = { 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
