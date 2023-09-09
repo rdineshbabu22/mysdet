@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import junit.framework.Assert;
 /* 
- * 
+ * Time Complexity of solution : O(n) 
  * */
 
 public class AllAAppearsBeforeB {

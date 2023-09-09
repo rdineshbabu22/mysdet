@@ -1,4 +1,6 @@
 package sdet.javafoundationexercise;
+/*
+ * Time complexity ; O(n)*/
 
 import org.junit.Test;
 
