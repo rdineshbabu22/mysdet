@@ -17,6 +17,7 @@ Retrun gsCount
 public class GoodSubString {
 
 	public int countGoodSubstrings(String s) {
+		
 
 		int count = 0;
 		int startPoint = 0, endPoint = startPoint + 3;

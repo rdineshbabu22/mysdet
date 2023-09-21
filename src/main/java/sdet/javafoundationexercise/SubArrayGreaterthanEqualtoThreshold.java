@@ -6,7 +6,7 @@ import org.testng.Assert;
 public class SubArrayGreaterthanEqualtoThreshold {
 
 	public int numOfSubarrays(int[] arr, int k, int threshold) {
-
+		System.out.println("Value is"+(1/2));
 		int count = 0, startPointer = 0, sum=0;
 		
 		while (startPointer<k) {
