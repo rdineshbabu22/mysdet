@@ -74,35 +74,35 @@ public class BowlingGame {
 
 	}
 
-//	@Test
-//	public void verifySc1() {
-//		Assert.assertEquals(1, isWinner(new int[] { 4, 10, 7, 9 }, new int[] { 6, 5, 2, 3 }));
-//	}
-//
-//	@Test
-//	public void verifySc2() {
-//		Assert.assertEquals(2, isWinner(new int[] { 3, 5, 7, 6 }, new int[] { 8, 10, 10, 2 }));
-//	}
-//
-//	@Test
-//	public void verifySc3() {
-//		Assert.assertEquals(0, isWinner(new int[] { 2, 3 }, new int[] { 4, 1 }));
-//	}
-//
-//	@Test
-//	public void verifySc4() {
-//		Assert.assertEquals(1, isWinner(new int[] { 0, 4, 7, 2, 0 }, new int[] { 2, 3, 3, 0, 1 }));
-//	}
-//
-//	@Test
-//	public void verifySc5() {
-//		Assert.assertEquals(2, isWinner(new int[] { 5, 6, 1, 10 }, new int[] { 5, 1, 10, 5 }));
-//	}
+	@Test
+	public void verifySc1() {
+		Assert.assertEquals(1, isWinner(new int[] { 4, 10, 7, 9 }, new int[] { 6, 5, 2, 3 }));
+	}
+
+	@Test
+	public void verifySc2() {
+		Assert.assertEquals(2, isWinner(new int[] { 3, 5, 7, 6 }, new int[] { 8, 10, 10, 2 }));
+	}
+
+	@Test
+	public void verifySc3() {
+		Assert.assertEquals(0, isWinner(new int[] { 2, 3 }, new int[] { 4, 1 }));
+	}
+
+	@Test
+	public void verifySc4() {
+		Assert.assertEquals(1, isWinner(new int[] { 0, 4, 7, 2, 0 }, new int[] { 2, 3, 3, 0, 1 }));
+	}
+
+	@Test
+	public void verifySc5() {
+		Assert.assertEquals(2, isWinner(new int[] { 5, 6, 1, 10 }, new int[] { 5, 1, 10, 5 }));
+	}
 	
-//	@Test
-//	public void verifySc6() {
-//		Assert.assertEquals(1, isWinner(new int[] {10 }, new int[] {9 }));
-//	}
+	@Test
+	public void verifySc6() {
+		Assert.assertEquals(1, isWinner(new int[] {10 }, new int[] {9 }));
+	}
 	
 	@Test
 	public void verifySc7() {
